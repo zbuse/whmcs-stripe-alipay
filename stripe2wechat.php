@@ -7,7 +7,7 @@ if (!defined("WHMCS")) {
     die("This file cannot be accessed directly");
 }
 
-require_once(__DIR__ . '/stripe-php/vendor/autoload.php');
+//require_once(__DIR__ . '/stripe-php/vendor/autoload.php');
 
 function stripe2wechat_config() {
     return [
