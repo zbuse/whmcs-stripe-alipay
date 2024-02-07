@@ -16,12 +16,12 @@ function stripe2wechat_config() {
             'Value' => 'Stripe WePay'
         ],
         'PublishableKey' => [
-            'FriendlyName' => 'Publishable key',
+            'FriendlyName' => 'PK_LIVE',
             'Type' => 'text',
             'Size' => 30,
         ],
         'SecretKey' => [
-            'FriendlyName' => 'Secret key',
+            'FriendlyName' => 'SK_LIVE',
             'Type' => 'text',
             'Size' => 30,
         ],
