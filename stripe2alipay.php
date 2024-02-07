@@ -16,12 +16,12 @@ function stripe2alipay_config() {
             'Value' => 'Stripe Alipay'
         ],
         'PublishableKey' => [
-            'FriendlyName' => 'Publishable key',
+            'FriendlyName' => 'PK_live',
             'Type' => 'text',
             'Size' => 30,
         ],
         'SecretKey' => [
-            'FriendlyName' => 'Secret key',
+            'FriendlyName' => 'SK_Live',
             'Type' => 'text',
             'Size' => 30,
         ],
